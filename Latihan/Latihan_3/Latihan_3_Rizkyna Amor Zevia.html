@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyna Latihan 3</title>
+</head>
+
+<body bgcolor="F2EDFA">
+    <h1 style="text-align: center; font-family: 'Segoe UI';"> Rekomendasi Keychain dan Phone Strap di Zukaa Shop
+    </h1>
+
+    <hr style="border: 1px solid rgb(35, 13, 98); width: 180%; margin: 30px 0;">
+
+    <h2 style="font-family: 'Segoe UI';">Daftar Produk</h2>
+    <div class="product">
+        <!-- Materi List-->
+        <ol type="1">
+            <li>Keychain Kanami</li>
+            <li>Keychain Michele</li>
+            <li>Keychain Flavia</li>
+            <li>Phone Strap Kanami</li>
+            <li>Phone Strap Kokona</li>
+        </ol>
+
+    </div>
+
+    <!--Materi Tabel-->
+    <h2 style="font-family: 'Segoe UI';">Data Produk Keychain dan Phone Strap</h2>
+    <table border="1">
+        <tr>
+            <th>Nama Produk</th>
+            <th>Harga</th>
+            <th>Stok</th>
+        </tr>
+        <tr>
+            <td>Keychain Kanami</td>
+            <td>Rp 27.000</td>
+            <td style="text-align: center;">5</td>
+        </tr>
+        <tr>
+            <td>Keychain Michele</td>
+            <td>Rp 30.000</td>
+            <td style="text-align: center;">5</td>
+        </tr>
+        <tr>
+            <td>Keychain Flavia</td>
+            <td>Rp 30.000</td>
+            <td style="text-align: center;">5</td>
+        </tr>
+        <tr>
+            <td>Phone Strap Kanami</td>
+            <td>Rp 10.000</td>
+            <td style="text-align: center;">5</td>
+        </tr>
+        <tr>
+            <td>Phone Strap Kokona</td>
+            <td>Rp 10.000</td>
+            <td style="text-align: center;">5</td>
+        </tr>
+
+    </table>
+    <thead>
+        <div>
+            <p style="font-family: 'Segoe UI'; font-size: 24px;"> <strong> Daftar Produk yang Dapat
+                    Anda Pilih:</strong>
+            </p>
+            <br>
+
+            <table border="3">
+                <thead>
+                    <tr>
+                        <th>Nama Produk</th>
+                        <th>Gambar</th>
+                        <th Width="100">Harga</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+
+                <tr>
+                    <td style="text-align: center;">Keychain Kanami</td>
+                    <td><img src="images/keychainkanami.jpeg" width="180px"></td>
+                    <td width="100" style="text-align: center;">27.000</td>
+                    <td>Keychain Kanami adalah gantungan kunci yang terbuat dari bahan berkualitas tinggi dengan desain
+                        karakter Kanami dari game strinova</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Keychain Michele</td>
+                    <td><img src="images/keychainmichele.jpeg" width="180px"></td>
+                    <td width="100" style="text-align: center;">30.000</td>
+                    <td>Keychain Michele adalah gantungan kunci yang terbuat dari bahan berkualitas tinggi dengan desain
+                        karakter Michele dari game strinova</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Keychain Flavia</td>
+                    <td><img src="images/keychainflavia.jpeg" width="180px"></td>
+                    <td width="100" style="text-align: center;">30.000</td>
+                    <td>Keychain Flavia adalah gantungan kunci yang terbuat dari bahan berkualitas tinggi dengan desain
+                        karakter Flavia dari game strinova</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Phone Strap Kanami</td>
+                    <td><img src="images/phonestrapkanami.jpeg" width="180px"></td>
+                    <td width="100" style="text-align: center;">10.000</td>
+                    <td>Phone Strap Kanami adalah tali gantungan ponsel yang terbuat dari bahan berkualitas tinggi
+                        dengan desain karakter Kanami dari game strinova</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">Phone Strap Kokona</td>
+                    <td><img src="images/phonestrapkokona.jpeg" width="180px"></td>
+                    <td width="100" style="text-align: center;">10.000</td>
+                    <td>Phone Strap Kokona adalah tali gantungan ponsel yang terbuat dari bahan berkualitas tinggi
+                        dengan desain karakter Kokona dari game strinova</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr style="border: 1px solid rgb(150, 117, 240); width: 180%; margin: 30px 0;">
+
+        <!-- Materi Menambahkan Media -->
+        <div class="media">
+            <h2 style="font-family: 'Segoe UI';">Trailer Game</h2>
+            <p style="font-family: 'Segoe UI'; font-size: 24px;">Berikut Trailer dari game Strinova</p>
+            <p>
+                <iframe width="720" height="405" src="videos/videostrinova.mp4" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </p>
+        </div>
+
+        <!-- Materi Forms yang bisa di isi-->
+
+        <div>
+
+            <form>
+                <h2 style="font-family: 'Segoe UI';"> Formulir Pemesanan Produk</h2>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required><br><br>
+                <label for="produk">Pilih Produk:</label>
+                <select id="produk" name="produk" required>
+                    <option value="">Pilih Produk</option>
+                    <option value="keychain-kanami">Keychain Kanami</option>
+                    <option value="keychain-michele">Keychain Michele</option>
+                    <option value="keychain-flavia">Keychain Flavia</option>
+                    <option value="phone-strap-kanami">Phone Strap Kanami</option>
+                    <option value="phone-strap-kokona">Phone Strap Kokona</option>
+                </select>
+                <br><br>
+                <label for="jumlah">Jumlah:</label>
+                <input type="number" id="jumlah" name="jumlah" min="1" required><br><br>
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required><br><br>
+                <input type="submit" value="Kirim">
+            </form>
+        </div>
+        <footer id="kontak">
+            <p>&copy; 2026 zukaashopp</p>
+            <address>
+                Email: <a href="mailto:zukaachan13@email.com">zukaachan13@email.com</a>
+            </address>
+        </footer>
+
+
+
+</body>
+
+</html>
