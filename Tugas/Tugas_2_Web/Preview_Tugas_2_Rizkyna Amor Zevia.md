@@ -2,4 +2,4 @@
 
 <img width="1920" height="1080" alt="Screenshot (552)" src="https://github.com/user-attachments/assets/934c7f50-2d1e-41f7-8caa-7e022a4a2bfd" />
 
-<img width="1920" height="1080" alt="Screenshot (553)" src="https://github.com/user-attachments/assets/e532e5f6-4951-48ea-be5f-7a3a3713f331" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3df5fd9f-05df-4bb4-bab1-79ee134c57d4" />
