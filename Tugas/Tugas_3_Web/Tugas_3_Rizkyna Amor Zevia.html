@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zukaa Shop</title>
+
+    <link rel="stylesheet" href="latihan4.css">
+
+    <style>
+        header {
+            background-color: #a9a6f7;
+            color: white;
+            text-align: center;
+            padding: 35px 20px 25px 20px;
+        }
+
+        header h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 32px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        header p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        /* Tombol Navigasi di bagian Header */
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            background-color: #39268c;
+            color: rgb(225, 204, 255);
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: 0px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Segoe UI', sans-serif;
+            border: none;
+            cursor: pointer;
+        }
+
+        .nav-btn:hover {
+            background-color: #b3dcfe;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 style="font-size: 70px;">Zukaa Shop</h1>
+        <p style="font-family: 'Segoe UI'; font-size: 24px;">Keychain and Phone Strap Strinova Recommendations on my
+            store :3</p>
+
+        <div class="nav-buttons">
+            <a href="#intro" class="nav-btn">Intro</a>
+            <a href="#katalog" class="nav-btn">Daftar Produk</a>
+            <a href="#form-pemesanan" class="nav-btn">Form Pemesanan</a>
+            <a href="#feedback" class="nav-btn">Kritik & Saran</a>
+        </div>
+    </header>
+
+    <div class="container">
+
+
+        <div class="intro-box" id="intro">
+            <h2>Eksplorasi Aksesori di Zukaa Shop :3</h2>
+            <p style="font-family: 'Segoe UI'; font-size: 24px;"> <strong>Zukaa Shop</strong> menghadirkan berbagai
+                pilihan aksesori, mulai dari keychain akrilik, phone strap, dll. Di halaman ini, kami menawarkan
+                <strong>5 rekomendasi produk pilihan</strong> dari berbagai karakter strinova yang dilengkapi dengan
+                detail gambar dan harga lengkap untuk membantu kamu menemukan merchandise yang sesuai selera.
+            </p>
+        </div>
+
+        <!-- Section Katalog Produk -->
+        <div class="section-title" id="katalog">
+            <h2>Daftar Rekomendasi Produk</h2>
+        </div>
+
+
+        <div class="product-grid">
+
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/keychainkanami.jpeg" alt="Keychain Kanami">
+                </div>
+                <div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-yellow">★ Recommendation</span>
+                    </div>
+                    <h3>Keychain Kanami</h3>
+                    <p class="genre">Kategori: Keychain • Strinova</p>
+                    <p class="desc">Gantungan kunci akrilik berkualitas tinggi dengan desain karakter Kanami dari game
+                        Strinova.</p>
+                    <div class="price-tag">Rp 27.000</div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/keychainmichele.jpeg" alt="Keychain Michele">
+                </div>
+                <div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-yellow">★ Recommendation</span>
+                    </div>
+                    <h3>Keychain Michele</h3>
+                    <p class="genre">Kategori: Keychain • Strinova</p>
+                    <p class="desc">Gantungan kunci akrilik berkualitas tinggi dengan desain karakter Michele dari game
+                        Strinova.</p>
+                    <div class="price-tag">Rp 30.000</div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/keychainflavia.jpeg" alt="Keychain Flavia">
+                </div>
+                <div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-yellow">★ Recommendation</span>
+                    </div>
+                    <h3>Keychain Flavia</h3>
+                    <p class="genre">Kategori: Keychain • Strinova</p>
+                    <p class="desc">Gantungan kunci akrilik berkualitas tinggi dengan desain karakter Flavia dari game
+                        Strinova.</p>
+                    <div class="price-tag">Rp 30.000</div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/phonestrapkanami.jpeg" alt="Phone Strap Kanami">
+                </div>
+                <div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-blue">Phone Strap</span>
+                    </div>
+                    <h3>Phone Strap Kanami</h3>
+                    <p class="genre">Kategori: Phone Strap • Strinova</p>
+                    <p class="desc">Tali gantungan ponsel berkualitas tinggi dengan desain karakter Kanami dari game
+                        Strinova.</p>
+                    <div class="price-tag">Rp 10.000</div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/phonestrapkokona.jpeg" alt="Phone Strap Kokona">
+                </div>
+                <div class="card-body">
+                    <div class="tag-container">
+                        <span class="tag tag-blue">Phone Strap</span>
+                    </div>
+                    <h3>Phone Strap Kokona</h3>
+                    <p class="genre">Kategori: Phone Strap • Strinova</p>
+                    <p class="desc">Tali gantungan ponsel berkualitas tinggi dengan desain karakter Kokona dari game
+                        Strinova.</p>
+                    <div class="price-tag">Rp 10.000</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Form Pemesanan -->
+        <div class="form-section" id="form-pemesanan">
+            <h2>Formulir Pemesanan Produk</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="produk">Pilih Produk:</label>
+                    <select id="produk" name="produk" required>
+                        <option value="">Pilih Produk</option>
+                        <option value="keychain-kanami">Keychain Kanami - Rp 27.000</option>
+                        <option value="keychain-michele">Keychain Michele - Rp 30.000</option>
+                        <option value="keychain-flavia">Keychain Flavia - Rp 30.000</option>
+                        <option value="phone-strap-kanami">Phone Strap Kanami - Rp 10.000</option>
+                        <option value="phone-strap-kokona">Phone Strap Kokona - Rp 10.000</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jumlah">Jumlah:</label>
+                    <input type="number" id="jumlah" name="jumlah" min="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="alamat">Alamat:</label>
+                    <input type="text" id="alamat" name="alamat" required>
+                </div>
+
+                <input type="submit" class="btn-submit" value="Kirim Pemesanan">
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Section Kritik dan Saran -->
+    <div class="feedback-section" id="feedback">
+        <h2>Kritik & Saran</h2>
+        <p class="feedback-sub">Punya masukan atau saran untuk Zukaa Shop? Tuliskan di bawah ini ya!</p>
+
+        <form>
+            <div class="form-group">
+                <label for="nama-feedback">Nama / Username:</label>
+                <input type="text" id="nama-feedback" name="nama" placeholder="Masukkan nama kamu" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pesan-feedback">Kritik & Saran:</label>
+                <textarea id="pesan-feedback" name="pesan" rows="4"
+                    placeholder="Tuliskan kritik dan saran kamu di sini..." required></textarea>
+            </div>
+
+            <input type="submit" class="btn-submit" value="Kirim Masukan">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <p>&copy; 2026 zukaashopp</p>
+        <p>Email: <a href="mailto:zukaachan13@email.com">zukaachan13@email.com</a></p>
+    </footer>
+
+</body>
+
+</html>
