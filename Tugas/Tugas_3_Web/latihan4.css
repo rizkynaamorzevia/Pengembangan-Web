@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #c2e7fd;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1050px;
+    margin: 30px auto;
+}
+
+/* Intro */
+.intro-box {
+    background-color: #ffffff;
+    border: 1px solid #b0d3e0;
+    border-radius: 0px;
+    padding: 25px 30px;
+    margin-bottom: 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.intro-box h2 {
+    color: #4535a7;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.intro-box p {
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+/* Judul Section Katalog */
+.section-title h2 {
+    color: #1b19aa;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Grid Kartu Produk */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+/* Kartu Produk */
+.card {
+    background-color: #ffffff;
+    width: calc(33.333% - 14px);
+    /* 3 Kolom sejajar */
+    min-width: 280px;
+    border: 1px solid #ee75a1;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 100%;
+    height: 320px;
+    background-color: #f0f0f0;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tag-container {
+    margin-bottom: 8px;
+}
+
+.tag {
+    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.tag-yellow {
+    background-color: #fff2cc;
+    color: #d68000;
+}
+
+.tag-blue {
+    background-color: #e1f5fe;
+    color: #0288d1;
+}
+
+.card-body h3 {
+    font-size: 18px;
+    color: #2b5b84;
+    margin-bottom: 4px;
+}
+
+.card-body .genre {
+    font-size: 11px;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.card-body .desc {
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 12px;
+    flex-grow: 1;
+}
+
+.price-tag {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+/* Form Pemesanan */
+.form-section {
+    background-color: #ffffff;
+    border: 1px solid #67143f;
+    border-radius: 0px;
+    padding: 25px 30px;
+    margin-top: 20px;
+}
+
+.form-section h2 {
+    color: #317dba;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+    font-size: 13px;
+}
+
+.btn-submit {
+    background-color: #39268c;
+    color: rgb(234, 225, 247);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #7e61e5;
+}
+
+/* Section Kritik dan Saran */
+.feedback-section {
+    background-color: #ffffff;
+    border: 1px solid #67143f;
+    border-radius: 0px;
+    /* Dibuat kotak senada dengan bagian lain */
+    padding: 25px 30px;
+    margin-top: 30px;
+}
+
+.feedback-section h2 {
+    color: #317dba;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.feedback-sub {
+    font-size: 13px;
+    color: #666666;
+    margin-bottom: 18px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: vertical;
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: #39268c;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #430c7d;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+footer a {
+    color: #fff5b2;
+}
