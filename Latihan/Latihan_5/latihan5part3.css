@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'smile';
+    src: url(fonts/smile.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'smile';
+    background-color: #fcf8f2;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4a2c20;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #382118;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a:link,
+nav a:visited {
+    color: #fce8d5;
+    text-decoration: none;
+    padding: 10px 18px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+nav a i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+nav a:hover {
+    background-color: #d97724;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+nav a:active {
+    background-color: #b35b12;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #e2d7cd;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #4a2c20;
+    margin-bottom: 12px;
+    font-size: 22px;
+    border-bottom: 2px solid #d97724;
+    padding-bottom: 6px;
+}
+
+.deskripsi-utama {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.8;
+}
+
+/* =========================================================
+   5. CSS OUTLINE
+   ========================================================= */
+.outline-box {
+    outline-style: solid;
+    outline-color: #d97724;
+    outline-width: 3px;
+    outline-offset: 4px;
+}
+
+/* =========================================================
+   6. CSS LISTS
+   ========================================================= */
+.list-kategori {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fef9f3;
+    border-left: 4px solid #4a2c20;
+}
+
+.list-kategori li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #e2d7cd;
+}
+
+.list-kategori li:last-child {
+    border-bottom: none;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 15px;
+}
+
+.toko-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.toko-table th,
+.toko-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.toko-table th {
+    background-color: #4a2c20;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.toko-table tbody tr:nth-child(even) {
+    background-color: #f9f3ed;
+}
+
+.toko-table tbody tr:hover {
+    background-color: #f1dfd1;
+}
+
+.btn-maps:link,
+.btn-maps:visited {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a2c20;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn-maps:hover {
+    background-color: #d97724;
+}
+
+.icon-btn {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.map-responsive {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.map-responsive iframe {
+    width: 100%;
+    height: 320px;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #382118;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 40px;
+}
