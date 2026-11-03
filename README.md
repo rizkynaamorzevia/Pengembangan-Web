@@ -2,7 +2,7 @@
 
 ## Repositori untuk pengumpulan tugas dan latihan Mata Kuliah Pengembangan Web 
 
-## Nama Dosen: Muhammad Azwar M.Hum
+## Dosen: Muhammad Azwar M.Hum
 
 ### Rizkyna Amor Zevia - 5A
 
